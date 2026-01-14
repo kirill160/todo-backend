@@ -5,7 +5,7 @@ import jakarta.validation.constraints.Size;
 import lombok.Value;
 
 @Value
-public class RequestToDo {
+public class RequestTodo {
     @NotBlank(message = "задача обязательна")
     @Size(min = 5, max = 200)
     private String message;
